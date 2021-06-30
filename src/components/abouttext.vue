@@ -28,13 +28,16 @@
           "
           max-width="720"
         >
-          Vuetify is the #1 component library for Vue.js and has been in active
-          development since 2016. The goal of the project is to provide users
-          with everything that is needed to build rich and engaging web
-          applications using the Material Design specification. It accomplishes
-          that with a consistent update cycle, Long-term Support (LTS) for
-          previous versions, responsive community engagement, a vast ecosystem
-          of resources and a dedication to quality components.
+          Sou programador e pesquisador, interessado em aprender e desenvolver
+          tecnologias que ajudam a melhorar o cotidiano das pessoas. Nos
+          desenvolvimentos de pesquisa já trabalhei com Java, Unity e
+          Javascript, e com frameworks como Spring, bancos de Dados SQL e
+          GRaphQL, e conhecimentos sobre Realidade Aumentada com Unity e Agentes
+          Inteligentes. Gosto muito de trabalhar descobrindo como os softwares
+          funcionam e melhorando as suas funcionalidades. Tenho um interesse
+          particular por tecnologias de Realidade Aumentada e Inteligência
+          Artificial. Porém o meu interesse por descobrir novas tecnologias me
+          dá motivação a aprender todo tipo de sistema.
         </v-responsive>
       </v-col>
     </v-row>

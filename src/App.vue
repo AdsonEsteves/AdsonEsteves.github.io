@@ -7,7 +7,7 @@
         <Title />
         <About />
         <Projects />
-        <Recent />
+        <!-- <Recent /> -->
         <Quote />
       </v-container>
     </v-main>
@@ -20,7 +20,7 @@ import FAButton from "./components/floatingbutton.vue";
 import Title from "./sections/Title.vue";
 import About from "./sections/About.vue";
 import Projects from "./sections/Projects.vue";
-import Recent from "./sections/Recent.vue";
+// import Recent from "./sections/Recent.vue";
 import Quote from "./sections/Quote.vue";
 
 export default {
@@ -32,7 +32,7 @@ export default {
     Title,
     About,
     Projects,
-    Recent,
+    // Recent,
     Quote,
   },
 

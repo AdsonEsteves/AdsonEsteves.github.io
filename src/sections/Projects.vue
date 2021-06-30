@@ -1,22 +1,28 @@
 <template>
-  <v-container fill-height fluid id="projects" style="height: 100vh">
+  <v-container
+    ref="projects"
+    fill-height
+    fluid
+    id="projects"
+    style="height: 100vh"
+  >
     <v-row>
       <v-col>
         <div class="hidden-sm-and-down" style="height: 10vh"></div>
         <div style="height: 90vh">
-          <Card />
+          <Card :project="portugolRepo" />
         </div>
       </v-col>
       <v-col>
         <div class="hidden-sm-and-down" style="height: 30vh"></div>
         <div style="height: 70vh">
-          <Card />
+          <Card :project="arMapRepo" />
         </div>
       </v-col>
 
       <v-col>
         <div style="height: 50vh">
-          <Card />
+          <Card :project="SACIPRepo" />
         </div>
         <div class="hidden-sm-and-down" style="height: 50vh">
           <v-card-text>
@@ -34,15 +40,31 @@
 <script>
 import Card from "../components/projectCard.vue";
 
-var portugolRepo = "https://api.github.com/repos/UNIVALI-LITE/Portugol-Studio";
-var arMapRepo =
-  "https://api.github.com/repos/AdsonEsteves/augmented-reality-map";
-var SACIPRepo = "https://api.github.com/repos/AdsonEsteves/SACIP";
-
 export default {
   name: "Projects",
   components: {
     Card,
+  },
+  data() {
+    return {
+      portugolRepo: "https://api.github.com/repos/UNIVALI-LITE/Portugol-Studio",
+      arMapRepo:
+        "https://api.github.com/repos/AdsonEsteves/augmented-reality-map",
+      SACIPRepo: "https://api.github.com/repos/AdsonEsteves/SACIP",
+    };
+  },
+  mounted() {
+    document.addEventListener("scroll", this.saveScreen);
+  },
+  methods: {
+    saveScreen() {
+      var top = this.$refs.projects.getBoundingClientRect().top;
+      var values = {
+        name: "projects",
+        top: top,
+      };
+      this.$store.commit("changePosition", values);
+    },
   },
 };
 </script>

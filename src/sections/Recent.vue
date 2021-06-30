@@ -2,8 +2,8 @@
   <v-container fluid id="recent" style="height: 100vh">
     <div class="hidden-sm-and-down" style="height: 20vh"></div>
     <v-row>
-      <v-col><Card /></v-col>
-      <v-col><Card /></v-col>
+      <!-- <v-col><Card /></v-col> -->
+      <!-- <v-col><Card /></v-col> -->
     </v-row>
     <!-- <v-card flat color="transparent">
       <v-card-text> -->
@@ -14,12 +14,12 @@
 </template>
 
 <script>
-import Card from "../components/projectCard.vue";
+//import Card from "../components/projectCard.vue";
 
 export default {
   name: "Recent",
   components: {
-    Card,
+    // Card,
   },
 };
 </script>

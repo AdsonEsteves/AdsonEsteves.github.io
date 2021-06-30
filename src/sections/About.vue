@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid id="about-me" style="height: 100vh">
+  <v-container ref="about" fluid id="about-me" style="height: 100vh">
     <v-card flat color="transparent" :height="padSize">
       <v-card-text>
         <p class=""></p>
@@ -32,6 +32,19 @@ export default {
         default:
           return "20%";
       }
+    },
+  },
+  mounted() {
+    document.addEventListener("scroll", this.saveScreen);
+  },
+  methods: {
+    saveScreen() {
+      var top = this.$refs.about.getBoundingClientRect().top;
+      var values = {
+        name: "about",
+        top: top,
+      };
+      this.$store.commit("changePosition", values);
     },
   },
 };
