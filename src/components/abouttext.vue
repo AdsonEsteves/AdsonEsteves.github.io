@@ -9,12 +9,7 @@
     <v-row class="" align="center" no-gutters>
       <v-col sm="12" lg="5" md="4" align="center">
         <v-container class="elevation-0" tile>
-          <v-img
-            src="https://cdn.vuetifyjs.com/images/john.png"
-            contain
-            max-height="370"
-          >
-          </v-img>
+          <v-img :src="myImage" contain max-height="370"> </v-img>
         </v-container>
       </v-col>
       <v-col sm="12" lg="6" md="5">
@@ -48,6 +43,11 @@
 export default {
   name: "AboutText",
   components: {},
+  data() {
+    return {
+      myImage: require("../assets/imagens/pic.jpg"),
+    };
+  },
   computed: {
     padSize() {
       switch (this.$vuetify.breakpoint.name) {

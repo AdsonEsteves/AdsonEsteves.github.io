@@ -22,14 +22,6 @@
     >
       Projects
     </v-tab>
-    <v-tab
-      :ripple="false"
-      flat
-      color="transparent"
-      @click="$vuetify.goTo('#about-me')"
-    >
-      Contact
-    </v-tab>
   </v-app-bar>
 </template>
 
