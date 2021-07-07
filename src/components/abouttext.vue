@@ -23,16 +23,19 @@
           "
           max-width="720"
         >
-          Sou programador e pesquisador, interessado em aprender e desenvolver
-          tecnologias que ajudam a melhorar o cotidiano das pessoas. Nos
-          desenvolvimentos de pesquisa já trabalhei com Java, Unity e
-          Javascript, e com frameworks como Spring, bancos de Dados SQL e
-          GRaphQL, e conhecimentos sobre Realidade Aumentada com Unity e Agentes
-          Inteligentes. Gosto muito de trabalhar descobrindo como os softwares
-          funcionam e melhorando as suas funcionalidades. Tenho um interesse
-          particular por tecnologias de Realidade Aumentada e Inteligência
-          Artificial. Porém o meu interesse por descobrir novas tecnologias me
-          dá motivação a aprender todo tipo de sistema.
+          I am a programmer and researcher, interested in learning and
+          developing technologies that help to improve people's daily lives. In
+          research developments I have worked with Java, Unity and Javascript,
+          and with framework Spring, SQL and GRaphQL databases, and I have
+          knowledge about Augmented Reality with Unity and Intelligent Agents. I
+          really enjoy working on discovering how the software systems works and
+          improve it according to its characteristics. Whenever I don't know
+          anything, I quickly seek the knowledge I need, allowing me to adapt to
+          different cases. It was one of the greatest learnings I had during my
+          formation. I have a particular interest in Augmented Reality and
+          Artificial Intelligence technologies. However, my interest in
+          discovering new technologies gives me motivation to learn all kinds of
+          systems.
         </v-responsive>
       </v-col>
     </v-row>
