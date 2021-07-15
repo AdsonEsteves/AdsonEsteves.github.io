@@ -1,6 +1,5 @@
 <template>
   <v-card
-    height="100%"
     class="mx-auto pt-16"
     color="transparent"
     elevation="0"
@@ -61,6 +60,8 @@ export default {
         case "md":
           return "95%";
         case "lg":
+          return "95%";
+        case "xl":
           return "60%";
         default:
           return "60%";

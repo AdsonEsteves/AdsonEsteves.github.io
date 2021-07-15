@@ -2,7 +2,7 @@
   <v-app-bar app color="transparent" flat dark class="pl-5 mt-3">
     <!-- <v-app-bar-nav-icon></v-app-bar-nav-icon> -->
 
-    <v-toolbar-title>Adson Esteves</v-toolbar-title>
+    <v-toolbar-title>Adson</v-toolbar-title>
 
     <v-spacer></v-spacer>
 

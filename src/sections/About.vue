@@ -1,12 +1,17 @@
 <template>
-  <v-container ref="about" fluid id="about-me" style="height: 100vh">
+  <v-container ref="about" fluid id="about-me" class="mt-16">
     <v-card flat color="transparent" :height="padSize">
       <v-card-text>
         <p class=""></p>
         <div class="text--primary text-h4 text-lg-h1 text-right">About Me</div>
       </v-card-text>
     </v-card>
-    <AboutText />
+    <v-sheet
+      color="transparent"
+      :height="$vuetify.breakpoint.smAndDown ? 'auto' : '100vh'"
+    >
+      <AboutText />
+    </v-sheet>
   </v-container>
 </template>
 

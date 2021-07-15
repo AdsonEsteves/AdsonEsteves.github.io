@@ -1,3 +1,5 @@
 <template>
-  <v-img src="../assets/logo.svg" />
+  <figure>
+    <v-img src="../assets/logo.svg" />
+  </figure>
 </template>

@@ -1,15 +1,14 @@
 <template>
-  <v-container ref="quote" fluid id="quote" style="height: 100vh">
-    <v-card flat color="transparent" :height="padSize">
+  <v-container ref="quote" fluid id="quote" class="mt-16">
+    <v-card flat color="transparent" width="100%" height="30vh">
       <v-card-text>
         <p class=""></p>
         <div class="text--primary text-h4 text-lg-h1 text-left">Nice Quote</div>
       </v-card-text>
     </v-card>
-    <v-container fluid>
+    <v-sheet color="transparent" height="60vh" class="d-flex">
       <v-card
-        height="100%"
-        class="mx-auto pt-16"
+        class="mx-auto"
         color="transparent"
         elevation="0"
         :max-width="padtSize"
@@ -33,8 +32,7 @@
           </v-col>
         </v-row>
       </v-card>
-    </v-container>
-    <!-- <AboutText /> -->
+    </v-sheet>
   </v-container>
 </template>
 
@@ -70,6 +68,8 @@ export default {
         case "md":
           return "95%";
         case "lg":
+          return "95%";
+        case "xl":
           return "60%";
         default:
           return "60%";

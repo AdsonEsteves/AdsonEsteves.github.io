@@ -1,6 +1,6 @@
 <template>
-  <v-card class="mx-auto" max-width="400">
-    <v-img class="white--text align-end" height="200px" :src="img">
+  <v-card class="mx-auto" max-width="350">
+    <v-img class="white--text align-end" max-height="200px" :src="img">
       <v-card-title class="grey darken-3 py-1 pl-3">
         {{ projectInfo.name | fixString }}
       </v-card-title>
